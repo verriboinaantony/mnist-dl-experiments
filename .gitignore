@@ -1,0 +1,9 @@
+# dataset — downloads automatically
+data/
+
+# python cache files
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
