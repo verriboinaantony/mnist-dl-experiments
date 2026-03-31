@@ -1,0 +1,7 @@
+# config.py
+
+BATCH_SIZE = 64
+LEARNING_RATE = 0.01
+EPOCHS = 10
+NUM_CLASSES = 10
+INPUT_SIZE = 784    # 28 * 28
