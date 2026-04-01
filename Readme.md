@@ -16,11 +16,12 @@ its effect on model performance.
 
 ## Results Summary
 
-| Experiment        | Key Change         | Train Acc | Val Acc |
-| ----------------- | ------------------ | --------- | ------- |
-| 01 Basic Network  | Baseline 3 layers  | 93.59%    | 93.87%  |
-| 02 Single Layer   | Reduced complexity | 90.21%    | 90.84%  |
-| 03 Adam Optimizer | Coming soon        | -         | -       |
+| Experiment         | Key Change                   | Train Acc | Val Acc | Improvement |
+| ------------------ | ---------------------------- | --------- | ------- | ----------- |
+| 01 Basic Network   | Baseline 3 layers            | 93.59%    | 93.87%  |
+| 02 Single Layer    | Reduced complexity           | 90.21%    | 90.84%  |
+| 03 Kaiming He Init | Better weight initialization | 95.73%    | 95.65%  | +1.78%      |
+| 03 Adam Optimizer  | Coming soon                  | -         | -       |
 
 ---
 

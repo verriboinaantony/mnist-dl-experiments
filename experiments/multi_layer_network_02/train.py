@@ -109,6 +109,6 @@ for epoch in range(EPOCHS):
     print(f"{epoch+1:>6} | {train_loss:>10.4f} | {train_acc:>8.2f}% | {val_loss:>8.4f} | {val_acc:>6.2f}%")
 
 # ── save model ────────────────────────────────────────────
-save_path = os.path.join(MODEL_DIR, 'multi_layer.pth')
+save_path = os.path.join(MODEL_DIR, 'multi_layer_with_variance_weights.pth')
 torch.save(model.state_dict(), save_path)
 print(f"\nModel saved to {save_path}")
