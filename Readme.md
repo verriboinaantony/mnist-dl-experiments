@@ -16,12 +16,11 @@ its effect on model performance.
 
 ## Results Summary
 
-| Experiment             | Key Change  | Test Accuracy |
-| ---------------------- | ----------- | ------------- |
-| 01 Basic Network       | Baseline    | 93.90%        |
-| 02 Better Optimizer    | Coming soon | -             |
-| 03 Batch Normalization | Coming soon | -             |
-| 04 Dropout             | Coming soon | -             |
+| Experiment        | Key Change         | Train Acc | Val Acc |
+| ----------------- | ------------------ | --------- | ------- |
+| 01 Basic Network  | Baseline 3 layers  | 93.59%    | 93.87%  |
+| 02 Single Layer   | Reduced complexity | 90.21%    | 90.84%  |
+| 03 Adam Optimizer | Coming soon        | -         | -       |
 
 ---
 
